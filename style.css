@@ -1,13 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 main{
     margin: 300px auto;
     width: 900px;
 }
     
 section {
-    display: flex;
     margin: 0 auto;
 
 }
 iframe{
     margin: 0 auto;
 }
+@media (max-width: 600px) {
+    main{
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+
+    }
+  }
